@@ -16,6 +16,26 @@
           <include name="setup"/>
         </methods>
       </class> <!-- com.test.pages.TravelPageTest -->
+      <class name="com.test.pages.IntegrationPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyKiwiModule_ActionClass"/>
+          <include name="setupBrowser"/>
+          <include name="deleteScreenShots"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.test.pages.IntegrationPageTest -->
+      <class name="com.test.pages.HomePageTest">
+        <methods>
+          <include name="VerifyHomePage"/>
+          <include name="tearDown"/>
+          <include name="getAllLinks"/>
+          <include name="setupBrowser"/>
+          <include name="VerifyChat"/>
+          <include name="deleteScreenShots"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.test.pages.HomePageTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Grouping] -->

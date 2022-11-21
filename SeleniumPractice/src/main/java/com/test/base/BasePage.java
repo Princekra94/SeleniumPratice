@@ -28,7 +28,7 @@ public class BasePage {
 		try {
 
 			prop = new Properties();
-			FileInputStream fip = new FileInputStream("/Users/prince/eclipse-workspace/SeleniumPractice/src/main/java/com/test/config/demo.properties");
+			FileInputStream fip = new FileInputStream("../SeleniumPractice/src/main/java/com/test/config/demo.properties");
 			prop.load(fip);
 
 		} catch (FileNotFoundException e) {
@@ -43,7 +43,7 @@ public class BasePage {
 	
 	@BeforeSuite
 	public void deleteScreenShots() {
-		File f = new File("/Users/prince/eclipse-workspace/SeleniumPractice/FailureScreenshots");
+		File f = new File("../SeleniumPractice/FailureScreenshots");
 		String[] s = f.list();
 		for(String s1:s) {
 			File f1 = new File(f,s1);
@@ -52,9 +52,10 @@ public class BasePage {
 	}
 	
 	
+	
 	@BeforeMethod(alwaysRun = true)
 	@Parameters(value="browser")
-	public void setupBrowser(String browser){
+	public static void setupBrowser(String browser){
 
 		try {
 			if(browser.equalsIgnoreCase("firefox")){

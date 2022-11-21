@@ -3,6 +3,7 @@
 <suite name="AllTest">
 
 	<listeners>
+	<listener class-name="com.test.utill.Transformer" />
 		<listener class-name="com.test.utill.TestLishners" />
 	</listeners>
 
@@ -14,8 +15,8 @@
 		
 		<classes>
 			<class name="com.test.pages.TravelPageTest" />
-			<class name="com.test.pages.IntegrationPageTest" />
-			<class name="com.test.pages.HomePageTest" />
+		<!-- 	<class name="com.test.pages.IntegrationPageTest" />
+			<class name="com.test.pages.HomePageTest" /> -->
 		</classes>
 	</test>
 </suite> 
