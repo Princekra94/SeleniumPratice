@@ -2,19 +2,19 @@
 <testng-results skipped="0" failed="1" ignored="0" retried="1" total="2" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="AllTest" duration-ms="133900" started-at="2022-11-21T19:30:32 IST" finished-at="2022-11-21T19:32:46 IST">
+  <suite name="AllTest" duration-ms="194178" started-at="2022-11-21T20:22:50 IST" finished-at="2022-11-21T20:26:04 IST">
     <groups>
       <group name="Regression">
         <method signature="TravelPageTest.VerifyCoustomerTravelPage()[pri:0, instance:com.test.pages.TravelPageTest@c81cdd1]" name="VerifyCoustomerTravelPage" class="com.test.pages.TravelPageTest"/>
       </group> <!-- Regression -->
     </groups>
-    <test name="Test" duration-ms="133900" started-at="2022-11-21T19:30:32 IST" finished-at="2022-11-21T19:32:46 IST">
+    <test name="Test" duration-ms="194178" started-at="2022-11-21T20:22:50 IST" finished-at="2022-11-21T20:26:04 IST">
       <class name="com.test.pages.TravelPageTest">
-        <test-method status="PASS" signature="deleteScreenShots()[pri:0, instance:com.test.pages.TravelPageTest@c81cdd1]" name="deleteScreenShots" is-config="true" duration-ms="10" started-at="2022-11-21T19:30:32 IST" finished-at="2022-11-21T19:30:32 IST">
+        <test-method status="PASS" signature="deleteScreenShots()[pri:0, instance:com.test.pages.TravelPageTest@c81cdd1]" name="deleteScreenShots" is-config="true" duration-ms="8" started-at="2022-11-21T20:22:50 IST" finished-at="2022-11-21T20:22:50 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteScreenShots -->
-        <test-method status="PASS" signature="setupBrowser(java.lang.String)[pri:0, instance:com.test.pages.TravelPageTest@c81cdd1]" name="setupBrowser" is-config="true" duration-ms="5854" started-at="2022-11-21T19:30:32 IST" finished-at="2022-11-21T19:30:38 IST">
+        <test-method status="PASS" signature="setupBrowser(java.lang.String)[pri:0, instance:com.test.pages.TravelPageTest@c81cdd1]" name="setupBrowser" is-config="true" duration-ms="7392" started-at="2022-11-21T20:22:50 IST" finished-at="2022-11-21T20:22:58 IST">
           <params>
             <param index="0">
               <value>
@@ -25,30 +25,30 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupBrowser -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.test.pages.TravelPageTest@c81cdd1]" name="setup" is-config="true" duration-ms="31" started-at="2022-11-21T19:30:38 IST" finished-at="2022-11-21T19:30:38 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.test.pages.TravelPageTest@c81cdd1]" name="setup" is-config="true" duration-ms="23" started-at="2022-11-21T20:22:58 IST" finished-at="2022-11-21T20:22:58 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="SKIP" signature="VerifyCoustomerTravelPage()[pri:0, instance:com.test.pages.TravelPageTest@c81cdd1]" name="VerifyCoustomerTravelPage" duration-ms="61080" retried="true" started-at="2022-11-21T19:30:38 IST" finished-at="2022-11-21T19:31:39 IST">
+        <test-method status="SKIP" signature="VerifyCoustomerTravelPage()[pri:0, instance:com.test.pages.TravelPageTest@c81cdd1]" name="VerifyCoustomerTravelPage" duration-ms="74319" retried="true" started-at="2022-11-21T20:22:58 IST" finished-at="2022-11-21T20:24:12 IST">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //*[@class='modal-title title'] (tried for 60 second(s) with 500 milliseconds interval)
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: /*[@class='author__meta'] (tried for 60 second(s) with 500 milliseconds interval)
 Build info: version: '4.6.0', revision: '79f1c02ae20'
 System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_291'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.110, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /var/folders/p3/yjg70c6x0fn...}, goog:chromeOptions: {debuggerAddress: localhost:52734}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:52734/devtoo..., se:cdpVersion: 107.0.5304.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 9bb7d44eae50d90387dced8009fd7778]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.110, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /var/folders/p3/yjg70c6x0fn...}, goog:chromeOptions: {debuggerAddress: localhost:53244}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:53244/devtoo..., se:cdpVersion: 107.0.5304.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4d447f408ba88b4551ee4a1658949c8a]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[@class='modal-title title'] (tried for 60 second(s) with 500 milliseconds interval)
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: /*[@class='author__meta'] (tried for 60 second(s) with 500 milliseconds interval)
 Build info: version: '4.6.0', revision: '79f1c02ae20'
 System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_291'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.110, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /var/folders/p3/yjg70c6x0fn...}, goog:chromeOptions: {debuggerAddress: localhost:52734}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:52734/devtoo..., se:cdpVersion: 107.0.5304.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 9bb7d44eae50d90387dced8009fd7778
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.110, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /var/folders/p3/yjg70c6x0fn...}, goog:chromeOptions: {debuggerAddress: localhost:53244}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:53244/devtoo..., se:cdpVersion: 107.0.5304.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4d447f408ba88b4551ee4a1658949c8a
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
-at com.test.pages.TravelPageTest.VerifyCoustomerTravelPage(TravelPageTest.java:55)
+at com.test.pages.TravelPageTest.VerifyCoustomerTravelPage(TravelPageTest.java:69)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -83,11 +83,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyCoustomerTravelPage -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.pages.TravelPageTest@c81cdd1]" name="tearDown" is-config="true" duration-ms="113" started-at="2022-11-21T19:31:39 IST" finished-at="2022-11-21T19:31:39 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.pages.TravelPageTest@c81cdd1]" name="tearDown" is-config="true" duration-ms="164" started-at="2022-11-21T20:24:12 IST" finished-at="2022-11-21T20:24:12 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setupBrowser(java.lang.String)[pri:0, instance:com.test.pages.TravelPageTest@c81cdd1]" name="setupBrowser" is-config="true" duration-ms="5159" started-at="2022-11-21T19:31:39 IST" finished-at="2022-11-21T19:31:44 IST">
+        <test-method status="PASS" signature="setupBrowser(java.lang.String)[pri:0, instance:com.test.pages.TravelPageTest@c81cdd1]" name="setupBrowser" is-config="true" duration-ms="4168" started-at="2022-11-21T20:24:12 IST" finished-at="2022-11-21T20:24:16 IST">
           <params>
             <param index="0">
               <value>
@@ -98,30 +98,30 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupBrowser -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.test.pages.TravelPageTest@c81cdd1]" name="setup" is-config="true" duration-ms="3" started-at="2022-11-21T19:31:44 IST" finished-at="2022-11-21T19:31:44 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.test.pages.TravelPageTest@c81cdd1]" name="setup" is-config="true" duration-ms="1" started-at="2022-11-21T20:24:16 IST" finished-at="2022-11-21T20:24:16 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="VerifyCoustomerTravelPage()[pri:0, instance:com.test.pages.TravelPageTest@c81cdd1]" name="VerifyCoustomerTravelPage" duration-ms="61127" started-at="2022-11-21T19:31:44 IST" finished-at="2022-11-21T19:32:45 IST">
+        <test-method status="FAIL" signature="VerifyCoustomerTravelPage()[pri:0, instance:com.test.pages.TravelPageTest@c81cdd1]" name="VerifyCoustomerTravelPage" duration-ms="107496" started-at="2022-11-21T20:24:16 IST" finished-at="2022-11-21T20:26:04 IST">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //*[@class='modal-title title'] (tried for 60 second(s) with 500 milliseconds interval)
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: /*[@class='author__meta'] (tried for 60 second(s) with 500 milliseconds interval)
 Build info: version: '4.6.0', revision: '79f1c02ae20'
 System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_291'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.110, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /var/folders/p3/yjg70c6x0fn...}, goog:chromeOptions: {debuggerAddress: localhost:52764}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:52764/devtoo..., se:cdpVersion: 107.0.5304.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 92b236b3fa212c328e364f7217fe3391]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.110, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /var/folders/p3/yjg70c6x0fn...}, goog:chromeOptions: {debuggerAddress: localhost:53289}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:53289/devtoo..., se:cdpVersion: 107.0.5304.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 996d9bc50e53c8e606977556d24244bd]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[@class='modal-title title'] (tried for 60 second(s) with 500 milliseconds interval)
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: /*[@class='author__meta'] (tried for 60 second(s) with 500 milliseconds interval)
 Build info: version: '4.6.0', revision: '79f1c02ae20'
 System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_291'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.110, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /var/folders/p3/yjg70c6x0fn...}, goog:chromeOptions: {debuggerAddress: localhost:52764}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:52764/devtoo..., se:cdpVersion: 107.0.5304.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 92b236b3fa212c328e364f7217fe3391
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.110, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /var/folders/p3/yjg70c6x0fn...}, goog:chromeOptions: {debuggerAddress: localhost:53289}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:53289/devtoo..., se:cdpVersion: 107.0.5304.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 996d9bc50e53c8e606977556d24244bd
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
-at com.test.pages.TravelPageTest.VerifyCoustomerTravelPage(TravelPageTest.java:55)
+at com.test.pages.TravelPageTest.VerifyCoustomerTravelPage(TravelPageTest.java:69)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -156,7 +156,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyCoustomerTravelPage -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.pages.TravelPageTest@c81cdd1]" name="tearDown" is-config="true" duration-ms="169" started-at="2022-11-21T19:32:46 IST" finished-at="2022-11-21T19:32:46 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.pages.TravelPageTest@c81cdd1]" name="tearDown" is-config="true" duration-ms="159" started-at="2022-11-21T20:26:04 IST" finished-at="2022-11-21T20:26:04 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
