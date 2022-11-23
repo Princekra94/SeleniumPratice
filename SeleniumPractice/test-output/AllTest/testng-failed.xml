@@ -5,7 +5,7 @@
     <listener class-name="com.test.utill.Transformer"/>
     <listener class-name="com.test.utill.TestLishners"/>
   </listeners>
-  <test thread-count="5" name="Test(failed)">
+  <test thread-count="5" name="TestChrome(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
       <class name="com.test.pages.TravelPageTest">
@@ -18,5 +18,28 @@
         </methods>
       </class> <!-- com.test.pages.TravelPageTest -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- TestChrome(failed) -->
+  <test thread-count="5" name="TestFirefox(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.test.pages.IntegrationPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyKiwiModule_ActionClass"/>
+          <include name="setupBrowser"/>
+          <include name="deleteScreenShots"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.test.pages.IntegrationPageTest -->
+      <class name="com.test.pages.TravelPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setupBrowser"/>
+          <include name="VerifyCoustomerTravelPage"/>
+          <include name="deleteScreenShots"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.test.pages.TravelPageTest -->
+    </classes>
+  </test> <!-- TestFirefox(failed) -->
 </suite> <!-- Failed suite [AllTest] -->
